@@ -1,0 +1,47 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "google",
+        "eslint:recommended",
+        "prettier"
+    ],
+    "plugins": ["prettier"],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "prettier/prettier": [
+            "error", {
+                "singleQuote": true,
+                "trailingComma": "all",
+                "printWidth": 80,
+                "tabWidth": 4,
+                "jsxSingleQuote": true,
+                "jsxBracketSameLine": false,
+                "arrowParens": "avoid",
+                "proseWrap": "never",
+                "endOfLine": "auto",
+                "quoteProps": "consistent",
+                "multiline-ternary": "always-multiline",
+                "semi": true
+            }
+        ],
+        // "new-cap": [
+        //     "error", 
+        //     { 
+        //         "capIsNewExceptionPattern": "^express\\.." 
+        //     }
+        // ],
+        "new-cap": 0,
+        "arrow-body-style": ["error", "as-needed"],
+        "multiline-ternary": ["error", "always-multiline"],
+        "no-undef": 0
+    }
+}
