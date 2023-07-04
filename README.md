@@ -79,6 +79,15 @@ To containerize the application using Docker, follow these steps:
 
    The application will be accessible at `http://localhost:3000`.
 
+## Docker Containerization Using Bat file
+
+   ```shell
+   cd C:\path\to\directory
+   ```
+   ``` shell
+   update.bat
+   ```
+
 ## Contributing
 
 Contributions are welcome! Please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
